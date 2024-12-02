@@ -4,7 +4,7 @@ Meu portfólio pessoal apresenta minhas habilidades, projetos e informações de
 
 ## Conteúdo
 
-- **index.html**: Estrutura do site.
+- **Portfólio.html**: Estrutura do site.
 - **styles.css**: Estilos do layout.
 - **script.js**: Código para carregar os projetos.
 
