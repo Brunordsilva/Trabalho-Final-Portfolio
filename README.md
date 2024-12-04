@@ -12,4 +12,4 @@ Meu portfólio pessoal apresenta minhas habilidades, projetos e informações de
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Brunordsilva/portfolio.git
+   git clone https://github.com/Brunordsilva/Trabalho-Final-Portfolio.git
