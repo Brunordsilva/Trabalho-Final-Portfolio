@@ -13,3 +13,6 @@ Meu portfólio pessoal apresenta minhas habilidades, projetos e informações de
 1. Clone o repositório:
    ```bash
    git clone https://github.com/Brunordsilva/Trabalho-Final-Portfolio.git
+
+2.Abra o Live Server:
+ clique com o botao direito no html e clique Open with Live Server
