@@ -1,4 +1,4 @@
-* {
+* { 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -26,7 +26,7 @@ header {
 }
 
 header h1 {
-  font-size: 2em;
+  font-size: 32px;
   margin: 0;
 }
 
@@ -40,7 +40,7 @@ header nav ul {
 header nav ul li a {
   color: #61dafb;
   text-decoration: none;
-  font-size: 1.1em;
+  font-size: 17.6px;
   transition: color 0.3s;
 }
 
@@ -62,11 +62,11 @@ section {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 1000ms ease-in-out;
 }
 
 section h2 {
-  font-size: 2.5em;
+  font-size: 40px;
   color: #333;
   border-bottom: 2px solid #61dafb;
   padding-bottom: 10px;
@@ -79,12 +79,12 @@ section ul {
 }
 
 section ul li {
-  font-size: 1.2em;
+  font-size: 19.2px;
   margin-bottom: 10px;
 }
 
 section p {
-  font-size: 1.1em;
+  font-size: 17.6px;
   margin-top: 10px;
 }
 
@@ -99,7 +99,7 @@ section p {
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
+  transition: transform 300ms;
 }
 
 #projetos div:hover {
@@ -116,13 +116,11 @@ form label {
   font-weight: bold;
 }
 
-form input,
-form textarea,
-form button {
+form input, form textarea, form button {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-size: 1em;
+  font-size: 16px;
 }
 
 form button {
@@ -130,7 +128,7 @@ form button {
   color: #fff;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 300ms;
 }
 
 form button:hover {
@@ -148,7 +146,7 @@ footer {
   color: #fff;
   text-align: center;
   padding: 20px;
-  font-size: 1em;
+  font-size: 16px;
   margin-top: 40px;
 }
 
@@ -157,7 +155,6 @@ footer {
     opacity: 0;
     transform: translateY(10px);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);
