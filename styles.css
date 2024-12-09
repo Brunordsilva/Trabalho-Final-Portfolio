@@ -14,29 +14,27 @@ body {
 }
 
 header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
   background: #333;
   color: #fff;
-  text-align: center;
-  padding: 20px;
+  padding: 10px 20px;
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
 header h1 {
-  font-size: 3em;
-  letter-spacing: 2px;
-  margin-bottom: 20px;
+  font-size: 2em;
+  margin: 0;
 }
 
 header nav ul {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
   list-style: none;
-}
-
-header nav ul li {
-  margin: 0 20px;
 }
 
 header nav ul li a {
@@ -90,6 +88,24 @@ section p {
   margin-top: 10px;
 }
 
+#projetos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+#projetos div {
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+#projetos div:hover {
+  transform: scale(1.05);
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -119,6 +135,12 @@ form button:hover {
   background-color: #0056b3;
 }
 
+#formFeedback {
+  display: none;
+  color: green;
+  font-weight: bold;
+}
+
 footer {
   background: #333;
   color: #fff;
@@ -126,25 +148,6 @@ footer {
   padding: 20px;
   font-size: 1em;
   margin-top: 40px;
-}
-
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 2.5em;
-  }
-
-  header nav ul {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  main {
-    padding: 0 10px;
-  }
-
-  section {
-    padding: 20px;
-  }
 }
 
 @keyframes fadeIn {
