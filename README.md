@@ -1,7 +1,7 @@
 # Portfólio de Bruno Rafael da Silva
 
 Meu portfólio pessoal apresenta minhas habilidades, projetos e informações de contato.
-dhs.danielsouza@gmail.com
+
 ## Conteúdo
 
 - **Portfólio.html**: Estrutura do Portfolio.
